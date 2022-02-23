@@ -1,0 +1,25 @@
+@startuml
+class Gamers
+{
+    name: string
+}
+class Slingshot
+{
+    angle: int
+    power: int
+}
+class Birds
+{
+    name: string
+    skill: int
+    size: int
+}
+Class Pigs
+{
+   health: int
+   size: int
+}
+Gamers --> Slingshot
+Slingshot --> Birds
+Birds --> Pigs
+@enduml
